@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <title>Tabelas em HTML</title>
+    </head>
+    <body>
+        <header style="background-color: aquamarine;">
+            <br>
+            <h1 style="text-align: center;">Tabelas</h1>
+            <br>
+            <hr>
+        </header>
+        <main>
+            <h2>Tabela de Notas de um Aluno</h2>
+            <table border="3" style="width: 100%;">
+                <!--table = Tabela-->
+                <thead style="background-color: blue; color: aquamarine;">
+                    <!--thead = Cabeçalho da Tabela-->
+                    <tr>
+                    <!--tr = Linha do Cabeçalho-->
+                        <th>Disciplina</th> <!--th/table head = conteúdo de cabeçalho-->
+                        <th>Nota1</th>
+                        <th>Nota2</th>
+                        <th>Nota3</th>
+                        <th>Nota4</th>
+                        <th>Média</th>
+                    </tr>
+                </thead>
+                <tbody style="background-color: purple; color: antiquewhite;">
+                    <tr>
+                        <td>Matemática</td>
+                        <td>9.0</td>
+                        <td>8.0</td>
+                        <td>8.0</td>
+                        <td>10.0</td>
+                        <td>8.5</td>
+                    </tr>
+                    <tr>
+                        <td>Linguagem de Marcação</td>
+                        <td>4.0</td>
+                        <td>5.0</td>
+                        <td>3.0</td>
+                        <td>4.0</td>
+                        <td>4.0</td>
+                    </tr>
+                    <tr>
+                        <td>Banco de Dados</td>
+                        <td>9.0</td>
+                        <td>9.0</td>
+                        <td>9.0</td>
+                        <td>10</td>
+                        <td>9.2</td>
+                    </tr>
+                    <tr>
+                        <td>Programação BackEnd 1</td>
+                        <td>8.0</td>
+                        <td>8.0</td>
+                        <td>7.0</td>
+                        <td>7.0</td>
+                        <td>7,5</td>
+                    </tr>
+                    <tr>
+                        <td>Programação Mobile</td>
+                        <td rowspan="2">-</td>
+                        <td rowspan="2">-</td>
+                        <td>9.0</td>
+                        <td>9.0</td>
+                        <td>9.0</td>
+                    </tr>
+                    <tr>
+                        <td>Programação FrontEnd</td>
+                        <td>10.0</td>
+                        <td>10.0</td>
+                        <td>10.0</td>
+                    </tr>
+                    <tr>
+                        <th colspan="5">Média Final</th>
+                        <th>7,3</th>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>
